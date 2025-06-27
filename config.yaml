@@ -1,0 +1,14 @@
+# config.yaml 示例：subs-check 的基本配置
+task:
+  - url: "https://你的订阅链接1"
+    tag: "机场A"
+  - url: "https://你的订阅链接2"
+    tag: "机场B"
+
+settings:
+  test_dl: true           # 启用测速
+  test_streaming: true    # 启用流媒体检测
+  sort_by_speed: true     # 按下载速度排序
+  export_format: "clash"  # 输出格式，可选 v2ray/clash/singbox
+  rename_node: true       # 是否重命名节点
+  output_dir: "output"    # 输出目录
