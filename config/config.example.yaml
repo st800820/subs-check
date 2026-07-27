@@ -83,7 +83,7 @@ filter:
   # - "GPT⁺|GPT"                 # 保留解锁 OpenAI 的节点
   # - "NF"                       # 保留解锁 Netflix 的节点（NF=仅自制剧, NF-US=全解锁）
   # - "GM"                       # 保留解锁 Gemini 的节点
-  # - "D\\+"                     # 保留解锁 Disney+ 的节点
+  # - "D\\+"                     # 保留解锁 Disney+ 的节点（D+=解锁但未知地区, D+-US=解锁并知道地区）
   # - "YT-"                      # 保留解锁 YouTube Premium 的节点
   # - "CL-"                      # 保留解锁 Claude 的节点
   # - "SP-"                      # 保留解锁 Spotify 的节点
@@ -269,7 +269,6 @@ sub-urls:
   - "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml"
   - "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc0.yaml"
   - "https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml"
-  - "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml"
   - "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml"
   - "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
   - "https://raw.githubusercontent.com/aiboboxx/v2rayfree/refs/heads/main/README.md"
